@@ -29,14 +29,18 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <hr class="hr-h3">
                                 </div>
                                 <div class="row">
-                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpaqui officia deserunt mollit anim id est laborum</p>
+                                    <p class="content2">Excepteur sint occaecat cupidatat non proident, sunt in culpaqui officia deserunt mollit anim id est laborum</p>
                                 </div>
                                 <div class="row">
-                                    <a class="price" href="#">only $50 </a>
+                                    <a class="price" href="#">
+                                        only $50 →
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <img src="/274/images/module3.png" alt="module3">
+                                <a class="imghover" href="#">
+                                    <img src="/274/images/module3.png" alt="module3">
+                                </a>
                             </div>
                         </div>
                     </div>
