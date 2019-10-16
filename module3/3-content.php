@@ -39,7 +39,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-md-6">
                                 <a class="imghover" href="#">
-                                    <img src="/274/images/module3.png" alt="module3">
+                                    <img src="/module3/images/module3-1.png" alt="module3">
                                 </a>
                             </div>
                         </div>

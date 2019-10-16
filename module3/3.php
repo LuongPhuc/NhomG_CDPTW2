@@ -34,7 +34,7 @@ $less->compileFile('less/3.less', 'css/3.css');
         ?>
     </head>
     <body >
-        <?php include '../274/3-content.php'; ?>
+        <?php include '../module3/3-content.php'; ?>
     </body>
 
 </html>
