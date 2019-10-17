@@ -1,0 +1,112 @@
+.footer-top {
+  background: white;
+  padding: 0px;
+}
+.footer-top .footer-address h3,
+.footer-top .footer-social h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 8px 0;
+  padding: 20px 0;
+}
+.footer-top .footer-address ul,
+.footer-top .footer-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-top .footer-address ul li,
+.footer-top .footer-social ul li {
+  color: #666;
+  margin: 0 0 20px;
+  font-size: 15px;
+  position: relative;
+}
+.footer-top .footer-address ul li i,
+.footer-top .footer-social ul li i {
+  left: 0;
+  color: #666;
+  font-size: 20px;
+  padding-right: 5px;
+}
+.footer-top .footer-address ul .icon li,
+.footer-top .footer-social ul .icon li {
+  padding: 15px 30px 5px 0px;
+  float: left;
+}
+.footer-top .footer-social ul li a {
+  text-decoration: none;
+  color: #6e6e6e;
+}
+.footer-top .footer-social ul li a i {
+  color: black !important;
+}
+.footer-top .footer-social ul li a:hover {
+  color: black;
+}
+.footer-top .footer-recent h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 8px 0;
+  color: black;
+  padding: 20px 0;
+}
+.footer-top .footer-recent input[type= "email"] {
+  border: 0px;
+  border-bottom: 1px solid #666;
+}
+.footer-top .footer-recent button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+}
+.footer-top .footer-recent button i {
+  font-size: 21px;
+  display: inline-block;
+  color: #666;
+}
+.footer-top .footer-recent .icon li {
+  padding: 80px 10px 0px 0px;
+  float: left;
+  list-style: none;
+}
+.footer-top .footer-recent .icon li a {
+  color: #666;
+  text-decoration: none;
+}
+.footer-top .footer-recent .icon li a:hover {
+  color: black;
+}
+.footer-bot {
+  text-align: center;
+  background: white;
+  padding: 20px 0;
+  color: black;
+}
+.footer-bot .icon {
+  list-style: none;
+  padding-left: 0px;
+}
+.footer-bot .icon li {
+  padding: 30px 30px 0px 0px;
+  float: left;
+}
+.footer-bot .icon a {
+  color: #666;
+  text-decoration: none;
+}
+.footer-bot .icon a i {
+  color: #666;
+}
+.footer-bot .iconkhac {
+  list-style: none;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-left: 0px;
+}
+.footer-bot .iconkhac li a {
+  color: black !important;
+}
+.footer-bot .iconkhac li a:hover {
+  text-decoration: none;
+}
