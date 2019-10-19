@@ -32,3 +32,53 @@ body {
   -webkit-align-items: center;
   align-items: center;
 }
+.content {
+  size: 14px;
+  color: #dfbb64;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 24px;
+  clear: both;
+  text-transform: bold;
+}
+.content2 {
+  margin-bottom: 1.5em;
+  margin-left: 75px;
+}
+.linktitle {
+  color: #000;
+  text-decoration: none;
+  outline: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+a:hover,
+a:focus {
+  color: #999;
+  text-decoration: none;
+}
+.hr-h3 {
+  width: 10%;
+  border-bottom: 7px solid #dcb14a;
+  float: left;
+  margin-left: 75px;
+}
+.price {
+  width: auto;
+  font-size: 16px;
+  color: #010101;
+  border: 1px solid #010101;
+  line-height: 38px;
+  padding: 0 32px;
+  margin-top: 58px;
+  margin-left: -275px;
+  display: inline-block;
+}
+.vc_column-inner .wpb_wrapper .price:hover {
+  background-color: #010101;
+  color: #fff;
+}
+img:hover {
+  transition: transform .5s ease;
+  transform: scale(1.05);
+}
