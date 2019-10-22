@@ -29,16 +29,31 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="col-md-4 icons1">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <a class="icons2" href="#"><i class="fa fa-user"></i></a>
+                                        <button  class="dropbtn"><i class="fa fa-user"></i></button>
                                     </div>
                                     <div class="col-md-3">
-                                        <a class="icons2" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <button  class="dropbtn"><i class="fa fa-heart-o"></i></button>
                                     </div>
                                     <div class="col-md-3">
-                                        <a class="icons2" href="#"><i class="fa fa-shopping-bag"></i></a>
+                                        <button  class="dropbtn"><i class="fa fa-shopping-bag"></i></button>
                                     </div>
                                     <div class="col-md-3">
-                                        <a class="icons2" href="#"><i class="fa fa-bars"></i></a>
+                                        <div class="dropdown">
+                                        <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
+                                        <div id="myDropdown" class="dropdown-content">
+
+                                            <button class="dropbtn1">Language ▾</button>
+                                            <button class="dropbtn1">Currencies ▾</button>
+                                            <button class="dropbtn1">HOME ▾</button>
+                                            <button class="dropbtn1">SHOP ▾</button>
+                                            <button class="dropbtn1">PAGES ▾</button>
+                                            <button class="dropbtn1">BLOG ▾</button>
+                                            <button class="dropbtn1">Contact Us ▾</button>
+                                            <button class="dropbtn1">Follow Us On Socials ▾</button>
+                                        </div>
+                                        </div>
+
+                                            
                                     </div>
                                 </div>
                             </div>
@@ -49,3 +64,32 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
 </div>
+
+
+
+
+
+
+
+
+<script>
+
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+
+                }
+        }
+    }
+
+</script>
