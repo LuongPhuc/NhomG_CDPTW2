@@ -41,15 +41,103 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="dropdown">
                                         <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
                                         <div id="myDropdown" class="dropdown-content">
+                                            <ul class="menu">
+                                                <li><a href="#">Language ▾</a>
+                                                <ul class="sub">             
+                                                <li><a href="#">English</a></li>
+                                                <li><a href="#">French</a></li>
+                                                <li><a href="#">Việt Nam</a></li>
+                                                </ul>
+                                                </li>
+                                            </ul>
 
-                                            <button class="dropbtn1">Language ▾</button>
-                                            <button class="dropbtn1">Currencies ▾</button>
-                                            <button class="dropbtn1">HOME ▾</button>
-                                            <button class="dropbtn1">SHOP ▾</button>
-                                            <button class="dropbtn1">PAGES ▾</button>
-                                            <button class="dropbtn1">BLOG ▾</button>
-                                            <button class="dropbtn1">Contact Us ▾</button>
-                                            <button class="dropbtn1">Follow Us On Socials ▾</button>
+                                            <ul class="menu">
+                                                <li><a href="#">Currencies ▾</a>
+                                                <ul class="sub">             
+                                                <li><a href="#">USD - US Dollar</a></li>
+                                                <li><a href="#">Euro</a></li>
+                                                <li><a href="#">VNĐ</a></li>
+                                                </ul>
+                                                </li>
+                                            </ul>
+                                            
+                                            <ul class="menu">
+                                                <li><a href="#">HOME ▾</a>
+                                                <ul class="sub">             
+                                                <li><a href="#">Home V1 - Default</a></li>
+                                                <li><a href="#">Home V2 - Boxed</a></li>
+                                                <li><a href="#">Home V3 - Carousel</a></li>
+                                                <li><a href="#">Home V4 - Categories</a></li>
+                                                <li><a href="#">Home V5 - Collection</a></li>
+                                                <li><a href="#">Home V6 - Full Width</a></li>
+                                                <li><a href="#">Home V7 - Left Sidebar</a></li>
+                                                <li><a href="#">Home V8 - Metro</a></li>
+                                                <li><a href="#">Home V9 - Minimal</a></li>
+                                                <li><a href="#">Home V10 - Parallax</a></li>
+                                                <li><a href="#">Home V11 - Video Feature</a></li>
+                                                <li><a href="#">Home V12 - Instagram</a></li>
+                                                </ul>
+                                                </li>
+                                            </ul>
+
+                                            <ul class="menu">
+                                                <li><a href="#">SHOP ▾</a>
+                                                <ul class="sub">             
+                                                <li><a href="#">Shop Pages</a></li>
+                                                <li><a href="#">Product Pages</a></li>
+                                                <li><a href="#">Other Pages</a></li>
+                                                </ul>
+                                                </li>
+                                            </ul>
+
+                                            <ul class="menu">
+                                                <li><a href="#">PAGES ▾</a>
+                                                <ul class="sub">             
+                                                <li><a href="#">About Us</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                                <li><a href="#">Coming Soon</a></li>
+                                                <li><a href="#">404 Pages</a></li>
+                                                </ul>
+                                                </li>
+                                            </ul>
+
+                                            <ul class="menu">
+                                                <li><a href="#">BLOG ▾</a>
+                                                <ul class="sub">             
+                                                <li><a href="#">Blog Grid</a></li>
+                                                <li><a href="#">Blog List</a></li>
+                                                <li><a href="#">Blog Masonry</a></li>
+                                                <li><a href="#">Blog Sidebar</a></li>
+                                                <li><a href="#">Single Post V1</a></li>
+                                                <li><a href="#">Single Post V2</a></li>
+                                                </ul>
+                                                </li>
+                                            </ul>
+
+                                            <ul class="menu">
+                                                <li><a href="#">Contact Us </a>
+                                                    <p>53 Võ Văn Ngân, Phường Linh Chiểu, Quận Thủ Đức, Thành Phố Hồ Chí Minh
+                                                TeamG@gmail.com
+                                                0123456789
+                                                </p>
+                                                </li>
+                                            </ul>
+
+                                            <ul class="menu">
+                                                <li><a class="menuicon" href="#">Follow Us On Socials </a>
+                                                    <a class="menuicon" href="#"><i class="fa fa-facebook"></i></a>
+
+                                                    <a class="menuicon" href="#"><i class="fa fa-twitter"></i></a>
+
+                                                    <a class="menuicon" class="menuicon" class="menuicon" href="#"><i class="fa fa-google-plus"></i></a>
+
+                                                    <a class="menuicon" class="menuicon" href="#"><i class="fa fa-linkedin"></i></a>
+                                                    
+                                                    <a class="menuicon" href="#"><i class="fa fa-pinterest-p"></i></a>       
+                                                
+                                                </li>
+                                            </ul>
+
                                         </div>
                                         </div>
 
