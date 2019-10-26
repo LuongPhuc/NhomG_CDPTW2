@@ -25,6 +25,9 @@ $less->compileFile('less/menu.less', 'css/menu.css');
         <link href="<?php echo $url_path ?>/css/menu.css" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet"/> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         
         <?php
         if (!class_exists('lessc')) {

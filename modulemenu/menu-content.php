@@ -29,7 +29,31 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="col-md-4 icons1">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <button  class="dropbtn"><i class="fa fa-user"></i></button>
+                                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><i class="fa fa-user"></i></button>
+                                        <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+          <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          
+          <div class="row">
+              <div class="col-md-6"><button type="button" class="btn btn-default">Login</button></div>
+              <div class="col-md-6"><button type="button" class="btn btn-default">Register</button></div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <h3>Login your account</h3>
+          <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" placeholder="Username" name="username" id="username" autocomplete="username" value=""><br>
+          <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" placeholder="Password" name="password" id="password" autocomplete="current-password"><br>
+          <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever">Remember me
+        </div>
+          <button type="button" class="btn btn-default btn-login" data-dismiss="modal">Login</button>
+        
+      </div>
+      
+          </div>
+  </div>
                                     </div>
                                     <div class="col-md-3">
                                         <button  class="dropbtn"><i class="fa fa-heart-o"></i></button>
