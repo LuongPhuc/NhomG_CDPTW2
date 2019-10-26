@@ -43,6 +43,7 @@ html, body {
     font-weight: 500;
     line-height: 24px;
     clear: both;
+    float: left;
     text-transform: bold;
 }
 .content2{
@@ -50,11 +51,17 @@ html, body {
     margin-left: 75px;
 }
 .linktitle{
-    color: #000;
-    text-decoration: none;
-    outline: 0;
-    -webkit-transition: .5s;
-    transition: .5s;
+    z-index: 5;
+    font-size: 54px;
+    line-height: 62px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0px;
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    border-width: 0px;
+    margin: 0px;
 }
 a:hover, a:focus {
     color: #999;
@@ -85,4 +92,27 @@ a:hover, a:focus {
 img:hover{
     transition: transform .5s ease;
     transform: scale(1.05);
+}
+
+.row1-1{
+    background-image: url(../images/module1-1.png);
+    width: 115%;
+    height: 70vh;
+    padding: 23px;
+    margin: 0;
+}
+
+.background-header{
+  float: left;
+}
+
+.content1-2{
+  padding-right: 115px;
+}
+
+.row1-2{
+    width: 115%;
+    height: 70vh;
+    padding: 23px;
+    margin: 0;
 }

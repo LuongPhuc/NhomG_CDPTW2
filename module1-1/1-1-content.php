@@ -14,11 +14,12 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="module1-1">
     <div class="vc_row wpb_row vc_row-fluid">
         <div class="container">
-            <div class="row">
+        <div class="background-header">
+            <div class="row row1-1">
                 <div class="wpb_column vc_column_container vc_col-sm-12">
                     <div class="vc_column-inner">
                         <div class="wpb_wrapper">
-                            <div class="col-md-6">
+                            
                                 <div class="content">
                                     <h3>
                                         CHAIR COLLECTION 2018
@@ -38,15 +39,16 @@ $url_path = str_replace('\\', '/', $url_path);
                                         Shop now →
                                     </a>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                    <img src="/module1-1/images/module1-1.png" alt="module1-1">
+                            
+                            
                                 
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+            
         </div>
     </div>
 </div>
