@@ -28,7 +28,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-md-4 icons1">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-2.4">
                                         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><i class="fa fa-user"></i></button>
                                         <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
@@ -55,13 +55,41 @@ $url_path = str_replace('\\', '/', $url_path);
           </div>
   </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-2.4">
+                                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><i class="fa fa-user"></i></button>
+                                        <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+          <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          
+          <div class="row">
+              <div class="col-md-6"><button type="button" class="btn btn-default">Login</button></div>
+              <div class="col-md-6"><button type="button" class="btn btn-default">Register</button></div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <h3>Login your account</h3>
+          <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" placeholder="Username" name="username" id="username" autocomplete="username" value=""><br>
+          <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" placeholder="Password" name="password" id="password" autocomplete="current-password"><br>
+
+        </div>
+          <button type="button" class="btn btn-default btn-login" data-dismiss="modal">Login</button>
+        
+      </div>
+      
+          </div>
+  </div>
+                                    </div>
+
+                                    <div class="col-md-2.4">
                                         <button  class="dropbtn"><i class="fa fa-heart-o"></i></button>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-2.4">
                                         <button  class="dropbtn"><i class="fa fa-shopping-bag"></i></button>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-2.4">
                                         <div class="dropdown">
                                         <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
                                         <div id="myDropdown" class="dropdown-content">
@@ -172,9 +200,14 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
+                
             </div>
+            <div id="test"></div>
         </div>
+
+        
     </div>
+    
 </div>
 
 

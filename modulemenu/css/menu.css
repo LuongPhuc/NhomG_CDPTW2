@@ -76,6 +76,7 @@ body {
   padding: 16px;
   font-size: 16px;
   border: none;
+  float: left;
   cursor: pointer;
 }
 .dropbtn:hover,
@@ -103,6 +104,7 @@ body {
   margin-left: -30px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  float: left;
 }
 .dropdown-content1 {
   display: none;
@@ -112,6 +114,7 @@ body {
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  float: left;
 }
 .dropdown-content a {
   color: black;
@@ -162,4 +165,37 @@ p {
   height: 45px;
   background: black;
   color: #fff;
+}
+#test {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  animation-name: move;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+  0% {
+    top: 0px;
+    left: 0px;
+    background-color: #6beeff;
+  }
+  10% {
+    top: 0px;
+    left: 400px;
+    background-color: #3bf5b9;
+  }
+  40% {
+    top: 200px;
+    left: 400px;
+    background-color: red;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    background-color: #6beeff;
+  }
 }
