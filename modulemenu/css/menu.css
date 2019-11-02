@@ -8,6 +8,10 @@
   border-right: 0px;
   font-size: 20px;
 }
+.fa {
+  background: #fff;
+  color: black;
+}
 .fa-search:before {
   color: #75758a;
   font-size: 20px;
@@ -134,6 +138,7 @@ body {
 }
 .show {
   display: block;
+  margin-left: -160px;
 }
 .show1 {
   display: block;
@@ -160,11 +165,53 @@ p {
   float: left;
   margin-left: -400px;
 }
+.modal-body {
+  position: relative;
+  padding: 15px;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+}
 .btn-login {
   width: 223px;
   height: 45px;
   background: black;
   color: #fff;
+}
+.tab {
+  overflow: hidden;
+  border: 0;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 0;
+  border-top: none;
+}
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+  color: #333333;
+  background: #fff;
 }
 #test {
   background-color: green;
