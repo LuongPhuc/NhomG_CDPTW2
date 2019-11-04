@@ -35,7 +35,7 @@ $less->compileFile('less/8.less', 'css/8.css');
 </head>
 <body>
     <?php include $dir_block.'/8-content.php'; ?>
-  
+   <script src="<?php echo $url_path ?>/js/8.js"></script>
 </body>
 
 </html>

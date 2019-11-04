@@ -42,16 +42,15 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <div class="list-meta">
                                                 <div class="meta date">
                                                     <time class="entry-date published updated" datetime="2018-10-18T09:20:56+00:00 ">
-                                                    October 18, 2018 
-                                                    </time>
+                                                    October 18, 2018 / </time>
                                                 </div>
                                                 <div class="meta author">
                                                     <span>by </span>
-                                                    <a class="url fn n" href="#">grixbase</a>
+                                                    <a class="url fn n" href="#"> grixbase </a>
                                                 </div>
                                                 <div class="meta cat">
-                                                    <span >in </span>
-                                                    <a href="#" class="cat-links">Chair</a>
+                                                    <span > / in Chair</span>
+                                                  
                                                 </div>
                                             </div>
                                         </div>       
@@ -70,15 +69,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="entry-meta">
                                             <div class="list-meta">
                                                 <div class="meta date">
-                                                    <time class="entry-date published updated" datetime="2018-10-18T09:20:43+00:00">October 18, 2018</time>
+                                                    <time class="entry-date published updated" datetime="2018-10-18T09:20:43+00:00">October 18, 2018 / </time>
                                                 </div>
                                                 <div class="meta author">
                                                     <span>by </span>
-                                                    <a class="url fn n" href="#">grixbase</a>
+                                                    <a class="url fn n" href="#"> grixbase</a>
                                                 </div>
                                                 <div class="meta cat">
-                                                    <span>in </span>
-                                                    <a href="#" class="cat-links">Chair</a>
+                                                     <span > / in Chair</span>
                                                 </div>
                                             </div>
                                         </div>   
@@ -98,15 +96,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="entry-meta">
                                             <div class="list-meta">
                                                 <div class="meta date">
-                                                    <time class="entry-date published updated" datetime="2018-10-18T09:18:50+00:00">October 18, 2018</time>
+                                                    <time class="entry-date published updated" datetime="2018-10-18T09:18:50+00:00">October 18, 2018 / </time>
                                                 </div>
                                                 <div class="meta author">
                                                     <span>by </span>
-                                                    <a class="url fn n" href="#">grixbase</a>
+                                                    <a class="url fn n" href="#"> grixbase</a>
                                                 </div>
                                                 <div class="meta cat">
-                                                    <span>in </span>
-                                                    <a href="#" class="cat-links">Chair</a>
+                                                     <span > / in Chair</span>
                                                 </div>
                                             </div>
                                         </div>
