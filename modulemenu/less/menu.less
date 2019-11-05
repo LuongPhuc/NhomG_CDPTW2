@@ -20,11 +20,30 @@
 .icons1{
     font-size: 20px;
 }
+.icons3{
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+}
+.icons3:hover{
+  color: rgb(220, 177, 74);
+  transition: 0.3s;
+  
+}
+
 .icons2{
     color: #75758a;
 }
 .icons2: hover{
     color: black;
+}
+.icons4{
+  color: #999
+}
+.icons4:hover{
+  text-decoration: none;
+  color: rgb(220, 177, 74);
+  transition: 0.3s;
 }
 
 body {
@@ -96,10 +115,14 @@ body {
 
 .dropbtn:hover, .dropbtn:focus {
   background-color: #ffffff;
+  border-radius: 0;
+  background-color: #cccccc;
 }
 
 .dropbtn1:hover, .dropbtn1:focus {
   background-color: #ffffff;
+  border-radius: 0;
+  background-color: #cccccc;
 }
 
 .dropdown {
@@ -217,7 +240,7 @@ p{
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 13px;
 }
 
 
@@ -249,9 +272,36 @@ button, [type=button], [type=reset], [type=submit] {
 
 
 
+/*                            Responsive                            */
+@media only screen and (max-width: 767px){
+  .modal-content{
+    float: left;
+    margin-left: 90px;
+    margin-top: 100px;
+  }
+  .w3-button{
+    margin-left: -16px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .w3-button{
+    margin-left: -16px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .w3-button{
+    margin-top: 6px;
+  }
+  .background1{
+    margin-top: 10px;
+  }
+}
 
 
-/*----------------TESTTTTTTTTTTTTTTTTTTTTT-------------------*/
+
+
+
+/*----------------TESTTTTTTTTTTTTTTTTTTTTT MOVEEEEEEEEEEEEEEEEEEE------------------*/
 #test{
             background-color:green;
             width:50px;

@@ -19,9 +19,10 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="vc_column-inner">
                         <div class="wpb_wrapper">
                             <div class="col-md-4">
+                            <form action="#" method="post">
                                  <input type="text" name="s" class="search-field" value="" placeholder="Search anything..." autocomplete="off">
                                  <a href="#"><i class="fa fa-search"></i></a>
-
+                            </form>
                             </div>
                             <div class="col-md-4">
                                 <h1>Helendo</h1>
@@ -62,9 +63,9 @@ $url_path = str_replace('\\', '/', $url_path);
     <form action="#" method="post">
   <div class="modal-body">
           <h3>Register</h3>
-          <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" placeholder="Username" name="username" id="username" autocomplete="username" value=""><br>
+          <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" placeholder="Username" name="username1" id="username1" autocomplete="username1" value=""><br>
           <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" placeholder="Email" name="Email" id="Email" autocomplete="Email" value=""><br>
-          <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" placeholder="Password" name="password" id="password" autocomplete="current-password"><br>
+          <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" placeholder="Password" name="password1" id="password1" autocomplete="current-password"><br>
           <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" placeholder="password confirm" name="password-confirm" id="password-confirm" autocomplete="current-password"><br>
           <button type="submit" class="btn btn-default btn-login" data-dismiss="modal">Login</button>
         </div>
@@ -84,17 +85,17 @@ $url_path = str_replace('\\', '/', $url_path);
 
 
                                     <div class="col-md-3">
-                                        <button  class="dropbtn1"><i class="fa fa-heart-o"></i></button>
+                                        <button  class="dropbtn"><i class="fa fa-heart-o"></i></button>
                                     </div>
                                     <div class="col-md-3">
-                                    <button  class="dropbtn1"><i class="fa fa-shopping-bag"></i></button>
+                                    <button  class="dropbtn"><i class="fa fa-shopping-bag"></i></button>
                                         
                                     </div>
                                     <div class="col-md-3">
                                         
                                         <div class="w3-container">
   
-  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black"><i class="fa fa-bars"></i></button>
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button "><i class="fa fa-bars"></i></button>
 
   <div id="id01" class="w3-modal">
     <div class="w3-modal-content">
@@ -112,60 +113,76 @@ $url_path = str_replace('\\', '/', $url_path);
             <button class="tablinks" onclick="openClick(event, 'FollowUsOnSocials')">Follow Us On Socials ▾</button>
         </div>
         <div id="Languages" class="tabcontent">
-            <a href="#">English</a>
-            <a href="#">French</a>
-            <a href="#">Việt Nam</a>
+            <a class="icons4" href="#">English</a><br>
+            <a class="icons4" href="#">French</a><br>
+            <a class="icons4" href="#">Việt Nam</a><br>
         </div>
         <div id="Currencies" class="tabcontent">
-            <a href="#">USD - US Dollar</a>
-            <a href="#">Euro</a>
-            <a href="#">VND</a>
+            <a class="icons4" href="#">USD - US Dollar</a><br>
+            <a class="icons4" href="#">Euro</a><br>
+            <a class="icons4" href="#">VND</a><br>
         </div>
         <div id="Menu" class="tabcontent">
-            <a href="#">Home V1 - Default</a>
-            <a href="#">Home V2 - Boxed</a>
-            <a href="#">Home V3 - Carousel</a>
-            <a href="#">Home V4 - Categories</a>
-            <a href="#">Home V5 - Collection</a>
-            <a href="#">Home V6 - Full Width</a>
-            <a href="#">Home V7 - Left Sidebar</a>
-            <a href="#">Home V8 - Metro</a>
-            <a href="#">Home V9 - Minimal</a>
-            <a href="#">Home V10 - Parallax</a>
-            <a href="#">Home V11 - Video Feature</a>
-            <a href="#">Home V12 - Instagram</a>
+            <a class="icons4" href="#">Home V1 - Default</a><br>
+            <a class="icons4" href="#">Home V2 - Boxed</a><br>
+            <a class="icons4" href="#">Home V3 - Carousel</a><br>
+            <a class="icons4" href="#">Home V4 - Categories</a><br>
+            <a class="icons4" href="#">Home V5 - Collection</a><br>
+            <a class="icons4" href="#">Home V6 - Full Width</a><br>
+            <a class="icons4" href="#">Home V7 - Left Sidebar</a><br>
+            <a class="icons4" href="#">Home V8 - Metro</a><br>
+            <a class="icons4" href="#">Home V9 - Minimal</a><br>
+            <a class="icons4" href="#">Home V10 - Parallax</a><br>
+            <a class="icons4" href="#">Home V11 - Video Feature</a><br>
+            <a class="icons4" href="#">Home V12 - Instagram</a><br>
         </div>
         <div id="Shop" class="tabcontent">
-            <a href="#">Shop Pages</a>
-            <a href="#">Product Pages</a>
-            <a href="#">Other Pages</a>
+            <a class="icons4" href="#">Shop Pages</a><br>
+            <a class="icons4" href="#">Product Pages</a><br>
+            <a class="icons4" href="#">Other Pages</a><br>
         </div>
         <div id="Pages" class="tabcontent">
-            <a href="#">About Us</a>
-            <a href="#">Contact</a>
-            <a href="#">Coming Soon</a>
-            <a href="#">404 Pages</a>
+            <a class="icons4" href="#">About Us</a><br>
+            <a class="icons4" href="#">Contact</a><br>
+            <a class="icons4" href="#">Coming Soon</a><br>
+            <a class="icons4" href="#">404 Pages</a><br>
+        </div>
         <div id="Blogs" class="tabcontent">
-            <a href="#">Blog Grid</a>
-            <a href="#">Blog List</a>
-            <a href="#">Blog Masonry</a>
-            <a href="#">Blog Sidebar</a>
-            <a href="#">Single Post V1</a>
-            <a href="#">Single Post V2</a>
+            <a class="icons4" href="# ">Blog Grid</a><br>
+            <a class="icons4" href="#">Blog List</a><br>
+            <a class="icons4" href="#">Blog Masonry</a><br>
+            <a class="icons4" href="#">Blog Sidebar</a><br>
+            <a class="icons4" href="#">Single Post V1</a><br>
+            <a class="icons4" href="#">Single Post V2</a><br>
         </div>
         <div id="ContactUs" class="tabcontent">
-            <p>1234567890</p>
+            <p class="icons4" >1234567890</p><br>
         </div>
         <div id="FollowUsOnSocials" class="tabcontent">
-            <a href="#"><i class="fa fa-facebook"></i></a>
+        <div class="row">
+            <a href="#"><i class="fa fa-facebook icons3">   -   Facebook</i></a>
+                   
+            <a href="#"><i class="fa fa-twitter icons3">   -   Twitter</i></a>
+          
+          
+            <a href="#"><i class="fa fa-google-plus icons3">   -   Google Plus</i></a>
+          
+          
+            <a href="#"><i class="fa fa-linkedin icons3">   -   Linkedin</i></a>
+          
+          
+            <a href="#"><i class="fa fa-pinterest-p icons3">   -   Printerest</i></a>
+          
+        </div>
+            
 
-            <a href="#"><i class="fa fa-twitter"></i></a>
+            
 
-            <a href="#"><i class="fa fa-google-plus"></i></a>
+            
 
-            <a href="#"><i class="fa fa-linkedin"></i></a>
+            
                                                     
-            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+            
         </div>
 
       </div>

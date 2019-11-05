@@ -19,11 +19,28 @@
 .icons1 {
   font-size: 20px;
 }
+.icons3 {
+  text-align: center;
+  margin: 20px;
+  text-decoration: none;
+}
+.icons3:hover {
+  color: #dcb14a;
+  transition: 0.3s;
+}
 .icons2 {
   color: #75758a;
 }
 .icons2: hover {
   color: black;
+}
+.icons4 {
+  color: #999;
+}
+.icons4:hover {
+  text-decoration: none;
+  color: #dcb14a;
+  transition: 0.3s;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -86,10 +103,14 @@ body {
 .dropbtn:hover,
 .dropbtn:focus {
   background-color: #ffffff;
+  border-radius: 0;
+  background-color: #cccccc;
 }
 .dropbtn1:hover,
 .dropbtn1:focus {
   background-color: #ffffff;
+  border-radius: 0;
+  background-color: #cccccc;
 }
 .dropdown {
   position: relative;
@@ -191,7 +212,7 @@ p {
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 13px;
 }
 .tab button:hover {
   background-color: #ddd;
@@ -212,6 +233,29 @@ button,
   -webkit-appearance: button;
   color: #333333;
   background: #fff;
+}
+@media only screen and (max-width: 767px) {
+  .modal-content {
+    float: left;
+    margin-left: 90px;
+    margin-top: 100px;
+  }
+  .w3-button {
+    margin-left: -16px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .w3-button {
+    margin-left: -16px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .w3-button {
+    margin-top: 6px;
+  }
+  .background1 {
+    margin-top: 10px;
+  }
 }
 #test {
   background-color: green;
