@@ -30,7 +30,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         CHAIR COLLECTION 2018
                                     </h3>
                                     <h1>
-                                    <a class="linktitle" href="#">Welcome To Helendo Store</a>         
+                                      <a class="linktitle" href="#">Welcome To Helendo Store</a>         
                                     </h1>
                                     <hr class="hr-h3">
 
@@ -79,14 +79,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                         CHAIR COLLECTION 2018
                                     </h3>
                                     <h1>
-                                    <a class="linktitle" href="#">Hagley Wooden Chair</a>         
+                                    <a class="linktitle1" href="#">Hagley Wooden Chair</a>         
                                     </h1>
                                     <hr class="hr-h3">
 
                                 </div> <br>
 
                                 <br> <br> <br> <br> <br>
-                                    <p class="content2">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+                                    <p class="content2  content3">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
                                 
                                 <div class="row">
                                     <a class="price" href="#">
@@ -95,7 +95,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                             </div>
                             <div class="col-md-6">
-                              <img src="/module1/images/module1-2.png" alt="module1-2">
+                              <img class="anh3" src="/module1/images/module1-2.png" alt="module1-2">
                             </div>
                               
                     </div>
@@ -112,7 +112,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
       </div>
       <div class="swiper-slide">
-        <div class="module3">
+        <div class="module1-3">
           <div class="vc_row wpb_row vc_row-fluid">
             <div class="container">
               <div class="row row1-2">
@@ -129,14 +129,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                         CHAIR COLLECTION 2018
                                     </h3>
                                     <h1>
-                                    <a class="linktitle" href="#">Kitchen Decorations</a>         
+                                    <a class="linktitle2" href="#">Kitchen Decorations</a>         
                                     </h1>
                                     <hr class="hr-h3">
 
                                 </div> <br>
 
                                 <br> <br> <br> <br> <br>
-                                    <p class="content2">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+                                    <p class="content2 content1-2">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
                                 
                                 <div class="row">
                                     <a class="price" href="#">
@@ -145,7 +145,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                             </div>
                             <div class="col-md-6">
-                              <img src="/module1/images/module1-3.png" alt="module1-2">
+                              <img class="anh3" src="../module1/images/module1-3.png" alt="module1-2">
                             </div>
                               
                     </div>
@@ -162,6 +162,9 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
       </div>
     </div>
+  </div>
+</div>
+</div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
   </div>
