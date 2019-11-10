@@ -11,6 +11,7 @@ Text Domain: Hayghe
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+@import 'css/menu.css';
 @import 'css/1.css';
 @import 'css/2.css';
 @import 'css/3.css';
@@ -20,9 +21,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import 'css/7.css';
 @import 'css/8.css';
 @import 'css/9.css';
-@import 'css/menu.css';
-
-
 @import 'js/4.js';
 @import 'css/631.js';
 @import 'css/8.js';

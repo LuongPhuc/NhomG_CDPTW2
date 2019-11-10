@@ -23,8 +23,10 @@ require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
     wp_register_style('bootstrapmin4', get_template_directory_uri() . '/css/bootstrap-4.3.1.min.css', 'all');
     wp_enqueue_style('bootstrapmin4');
    
-              wp_register_style('font-awesome', get_template_directory_uri() . '/css/ font-awesome.min.css', 'all');
-    wp_enqueue_style('font-awesome');
+   wp_register_style('w3', get_template_directory_uri() . '/css/w3.css');
+    wp_enqueue_style('w3');
+      wp_register_style('font-awesome47', get_template_directory_uri() . '/css/font-awesome.min.css');
+    wp_enqueue_style('font-awesome47');
       wp_register_style('swiper-3', get_template_directory_uri() . '/css/swiper-3.4.2.min.css.css', 'all');
     wp_enqueue_style('swiper-3');
       wp_register_style('swiper', get_template_directory_uri() . '/css/swiper.css', 'all');
