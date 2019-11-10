@@ -1,0 +1,46 @@
+.content {
+  size: 14px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 24px;
+  clear: both;
+}
+.content2 {
+  margin-bottom: 1.5em;
+}
+.linktitle {
+  color: #000;
+  text-decoration: none;
+  outline: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+a:hover,
+a:focus {
+  color: #999;
+  text-decoration: none;
+}
+.hr-h3 {
+  width: 10%;
+  border-bottom: 3px solid #dcb14a;
+  float: left;
+}
+.price {
+  width: auto;
+  font-size: 16px;
+  color: #010101;
+  border: 1px solid #010101;
+  line-height: 38px;
+  padding: 0 32px;
+  margin-top: 58px;
+  display: inline-block;
+}
+.vc_column-inner .wpb_wrapper .price:hover {
+  background-color: #010101;
+  color: #fff;
+}
+img:hover {
+  transition: transform .5s ease;
+  transform: scale(1.05);
+}
