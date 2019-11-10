@@ -1,0 +1,34 @@
+.type-7 {
+  background-image: url(../images/h1-countdown.jpg);
+}
+.type-7 h3 {
+  margin-left: -750px;
+  padding-top: 80px;
+  text-align: center;
+  font: 36px Roboto, sans-serif;
+}
+.type-7 .container {
+  height: 700px;
+}
+.type-7 p {
+  color: #666666;
+  margin-bottom: 50px;
+  font: 20px Roboto, sans-serif;
+}
+.type-7 #demo {
+  font: 58px Prata, serif;
+  color: #000 !important;
+}
+.type-7 .hr {
+  border: solid 2px #DCB14A;
+  width: 4%;
+  margin-left: 750px;
+  margin-bottom: 50px;
+}
+.type-7 button {
+  font: 19px Roboto, sans-serif;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  background: #000;
+}
